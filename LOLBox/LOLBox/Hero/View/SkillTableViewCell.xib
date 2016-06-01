@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="SkillTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NAz-2A-lg1">
+                        <rect key="frame" x="5" y="5" width="310" height="60"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="4DH-Br-hNr"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100秒" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Wf-u9-w3A">
+                        <rect key="frame" x="5" y="129" width="310" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="YFJ-gc-MdW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.65617028060000004" green="0.65617028060000004" blue="0.65617028060000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100法力" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="reS-bZ-O0I">
+                        <rect key="frame" x="5" y="164" width="310" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="8wu-vX-PWM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.65617028060000004" green="0.65617028060000004" blue="0.65617028060000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="魔法水晶箭" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWN-Wr-Ncn">
+                        <rect key="frame" x="5" y="70" width="310" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="SKW-R5-sPX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="魔法的水晶箭" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7SY-mI-5im">
+                        <rect key="frame" x="5" y="105" width="310" height="19"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.65617028061224492" green="0.65617028061224492" blue="0.65617028061224492" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="reS-bZ-O0I" secondAttribute="trailing" constant="5" id="0F2-Om-0Mb"/>
+                    <constraint firstItem="reS-bZ-O0I" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="0yz-nK-YKn"/>
+                    <constraint firstItem="1Wf-u9-w3A" firstAttribute="top" secondItem="7SY-mI-5im" secondAttribute="bottom" constant="5" id="4mB-pT-i1v"/>
+                    <constraint firstItem="7SY-mI-5im" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="4nm-YQ-XEo"/>
+                    <constraint firstItem="NAz-2A-lg1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="H0v-1w-XV0"/>
+                    <constraint firstItem="reS-bZ-O0I" firstAttribute="top" secondItem="1Wf-u9-w3A" secondAttribute="bottom" constant="5" id="H3q-ab-JCC"/>
+                    <constraint firstItem="oWN-Wr-Ncn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="NQP-M1-B7E"/>
+                    <constraint firstAttribute="trailing" secondItem="1Wf-u9-w3A" secondAttribute="trailing" constant="5" id="U7T-dZ-Xfp"/>
+                    <constraint firstAttribute="trailing" secondItem="oWN-Wr-Ncn" secondAttribute="trailing" constant="5" id="V9d-MV-GHL"/>
+                    <constraint firstAttribute="trailing" secondItem="NAz-2A-lg1" secondAttribute="trailing" constant="5" id="WPz-Ew-ud3"/>
+                    <constraint firstItem="1Wf-u9-w3A" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="dyz-n8-P3a"/>
+                    <constraint firstItem="oWN-Wr-Ncn" firstAttribute="top" secondItem="NAz-2A-lg1" secondAttribute="bottom" constant="5" id="fUy-hj-0lB"/>
+                    <constraint firstAttribute="trailing" secondItem="7SY-mI-5im" secondAttribute="trailing" constant="5" id="g8a-7R-kPf"/>
+                    <constraint firstItem="7SY-mI-5im" firstAttribute="top" secondItem="oWN-Wr-Ncn" secondAttribute="bottom" constant="5" id="jsn-ti-XUa"/>
+                    <constraint firstItem="NAz-2A-lg1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="n4P-4A-Ger"/>
+                    <constraint firstAttribute="bottom" secondItem="reS-bZ-O0I" secondAttribute="bottom" constant="5" id="wWC-qz-Jbh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cdLabel" destination="1Wf-u9-w3A" id="Sd1-z2-4s5"/>
+                <outlet property="costLabel" destination="reS-bZ-O0I" id="ME0-UT-MPC"/>
+                <outlet property="descLabel" destination="7SY-mI-5im" id="WPr-XS-wvM"/>
+                <outlet property="nameLabel" destination="oWN-Wr-Ncn" id="FSi-5g-e4N"/>
+                <outlet property="skillView" destination="NAz-2A-lg1" id="shG-J6-Gbu"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="152"/>
+        </tableViewCell>
+    </objects>
+</document>
